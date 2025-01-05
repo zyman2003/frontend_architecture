@@ -1,0 +1,186 @@
+<html>
+  <head>
+    <title>Chicago Architecture</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+  </head>
+
+  <body>
+    <section class="banner">
+      <div class="banner-text">
+        <hr />
+        <h1><span style="color:rgb(241, 247, 207)">C</span><span style="color:rgb(249, 235, 196)">H</span>ICAGO</h1>
+
+        <h2>ARCHI-</h2>
+        <h3>TECT<span style="color:rgb(181, 164, 193)">U</span><span style="color:rgb(165, 163, 204)">R</span><span style="color:rgb(153, 176, 208)">E</span>
+        
+        </h3>
+      </div>
+
+      <div class="banner-btn">
+        <a href="#Explore"><span></span>Explore</a>
+        <a href="#Map "><span></span>Map</a>
+      </div>
+    </section>
+
+    <div id="sideNav">
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#Explore">GALLERY</a></li>
+          <li><a href="tribune.html">BUILDINGS</a></li>
+          <li><a href="#Map">MAP</a></li>
+          <li><a href="https://www.architecture.org/" target="_blank">MORE</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="menuBtn">
+      <img src="img/menu.png" id="menu" />
+    </div>
+
+    <section class="background">
+    <section id="Explore">
+      <h1>Architecture Gallery</h1>
+      <hr class="hr3">
+      
+      <section class="scroller">
+        
+        <div class="media-scroller">
+          
+          
+          <div class="media-element">
+         
+            <a href="tribune.html" target:"_blank">
+            <img class="hover-img"
+              src="img/Tribune_T.jpeg"
+              alt="tribune-tower"
+              width="250"
+              height="450"
+            />
+      
+          </a>
+         
+            <p class="title">Tribune Tower</p>
+          </div>
+          <div class="media-element">
+            <a href="willis.html" target:"_blank">
+            <img class="hover-img"
+              src="img/Willis.jpeg"
+              alt="Willis-tower"
+              width="250"
+              height="450"
+            />
+          </a>
+            <p class="title">Willis Tower</p>
+          </div>
+          <div class="media-element">
+            <a href="wrigley.html" target:"_blank">
+            <img class="hover-img"
+              src="img/Wrigley_T.jpeg"
+              alt="wrigley-tower"
+              width="250"
+              height="450"
+            />
+          </a>
+            <p class="title">Wrigley Building</p>
+          </div>
+          <div class="media-element">
+            <a href="merchandise.html" target:"_blank">
+            <img class="hover-img"
+              src="img/Merchandise.jpeg"
+              alt="merchandise-tower"
+              width="250"
+              height="450"
+            />
+            </a>
+            <p class="title">The Merchandise Mart</p>
+          </div>
+          <div class="media-element">
+            <a href="aqua.html" target:"_blank">
+            <img class="hover-img"
+              src="img/Aqua.jpeg"
+              alt="Aqua-tower"
+              width="250"
+              height="450"
+            />
+            </a>
+            <p class="title">Aqua Tower</p>
+          </div>
+          <div class="media-element">
+            <a href="875.html" target:"_blank">
+            <img class="hover-img"
+              src="img/John.jpeg"
+              alt="john-tower"
+              width="250"
+              height="450"
+            />
+          </a>
+            <p class="title">John Hancock Center</p>
+          </div>
+
+        </div>
+     
+      </section>
+
+    </section>
+
+    <section id="Map">
+      <h1>Architectures on Map</h1>
+      <hr class="hr4">
+      <div class="map-content">
+      <img class="img-map"
+      src="img/Map3.png"
+      alt="map-background"
+      width="550"
+      height="550"/>
+
+     
+      <ol class="map-list">
+    <a href="tribune.html" target:"_blank">
+        <li>1. Tribune Tower</li></a>
+      
+        <a href="willis.html" target:"_blank">
+        <li>2. Willis Tower</li></a>
+
+        <a href="wrigley.html" target:"_blank">
+        <li>3. Wrigley Building</li></a>
+        <a href="merchandise.html" target:"_blank">
+      
+        <li>4.Merchandise Mart</li></a>
+        <a href="aqua.html" target:"_blank">
+        <li>5. Aqua Tower</li></a>
+        <a href="875.html" target:"_blank">
+        <li class="John">6.John Hancock Center</li>
+      </a>
+      </ol>
+    
+  
+    </div>
+    </section>
+  </section>
+    <!-- <section class="button">
+      <a id="scroll-btn"></a>
+    </section> -->
+
+    <script>
+      var menuBtn = document.getElementById("menuBtn");
+      var menuBtn = document.getElementById("sideNav");
+      var menuBtn = document.getElementById("menu");
+
+      sideNav.style.right = "-250px";
+
+      menuBtn.onclick = function () {
+        if (sideNav.style.right == "-250px") {
+          sideNav.style.right = "0";
+          menu.src = "img/close.png";
+        } else {
+          sideNav.style.right = "-250px";
+          menu.src = "img/menu.png";
+        }
+      };
+    </script>
+  </body>
+</html>

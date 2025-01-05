@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.banner {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgb(39, 39, 39)),
+    url(img/willis-style.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.banner-text h1 {
+  font-size: 45px;
+  color: white;
+  padding-left: 150px;
+  padding-top: 30px;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+}
+
+.banner-text h2 {
+  font-size: 45px;
+  color: white;
+  padding-left: 150px;
+  margin-top: -10px;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+}
+
+.back {
+  font-size: 50px;
+  color: white;
+  margin-top: -70px;
+  padding-left: 50px;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+a:link {
+  text-decoration: none;
+}
+.back:hover {
+  transform: scale(1.5);
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.circle2 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.circle3 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.circle h2 {
+  font-size: 20px;
+  border-radius: 50%;
+  padding-top: 58px;
+  padding-left: 32px;
+}
+.circle2 h2 {
+  font-size: 20px;
+  border-radius: 50%;
+  padding-top: 58px;
+  padding-left: 30px;
+}
+.circle3 h2 {
+  font-size: 20px;
+  border-radius: 50%;
+  padding-top: 58px;
+  padding-left: 20px;
+}
+
+.tribune-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.circle-list {
+  grid-column: 1/2;
+}
+
+.tribune-img {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: -10px;
+  margin-left: 80px;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  border-radius: 50%;
+}
+.tribune-img:hover {
+  transform: scale(1.06);
+}
+
+.togglewrap {
+  width: 400px;
+  margin-left: 150px;
+  border-radius: 5%;
+}
+.togglewrap {
+  color: transparent;
+  max-height: 0;
+  overflow-y: hidden;
+}
+
+.togglewrap,
+.togglewrap span {
+  transition: 0.5s ease;
+}
+.togglewrap p {
+  color: rgb(89, 89, 89);
+  padding: 20px;
+  line-height: 22px;
+}
+
+.circle:hover .togglewrap {
+  background-color: rgb(225, 225, 225);
+  max-height: 500px;
+}
+
+.circle {
+  cursor: pointer;
+}
+
+.circle2:hover .togglewrap {
+  background-color: rgb(225, 225, 225);
+  max-height: 500px;
+}
+
+.circle2 {
+  cursor: pointer;
+}
+
+.circle3:hover .togglewrap {
+  background-color: rgb(225, 225, 225);
+  max-height: 500px;
+}
+
+.circle3 {
+  cursor: pointer;
+}
